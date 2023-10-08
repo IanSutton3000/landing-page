@@ -26,6 +26,8 @@ ul {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+
 .main-one {
     display: flex;
     justify-content: space-between;
@@ -61,4 +63,62 @@ h1 {
     border: 1px solid grey;
     background-color: lightgray;
     text-align: center;
+}
+
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937
+}
+.main-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 300px 100px;
+    gap: 50px;
+}
+.info-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.box {
+    border: 6px solid rgb(78, 189, 240);
+    border-radius: 15px;
+    height: 200px;
+    width: 200px;
+}
+.info-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 250px;
+    text-align: center;
+    gap: 10px
+}
+.info-text {
+    font-size: 20px;
+}
+
+
+.main-three {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 200px 400px;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+.quote-author {
+    font-size: 30px;
+    font-weight: 900;
+    color: #1F2937;
+    align-self: flex-end;
+    margin-right: 50px;
 }
